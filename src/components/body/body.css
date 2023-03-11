@@ -1,0 +1,211 @@
+.utils-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.utils-flex{
+    display: flex;
+}
+.head-part-1{
+    background-image: url("https://img.rasset.ie/0011c1e4-1600.jpg");
+    width: 90vw;
+    height: 100vh;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.head-part-1 img{
+    width: 36px;
+}
+.head-part-1 h2{
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+}
+.btns{
+    display: flex;
+}
+.btns div:nth-of-type(1){
+    margin-right: auto;
+}
+.btn{
+    display: flex;
+}
+.btn button{
+    margin-right: 4%;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    outline-style: none;
+    height: 5vh;
+    width: auto;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn button:nth-of-type(1){
+    background-color: rgba(0, 0, 0, 0.8);
+    color: antiquewhite;
+}
+.btn button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: antiquewhite;
+}
+.search input{
+    height: 5vh;
+    border-radius: 10px;
+    border: 0;
+    outline-style: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.tst{
+    width: 35vw;
+    padding: 2%;
+    text-align: center;
+    
+    color:gray;
+    background-color: rgba(255, 165, 0, 0.5);
+    margin-top: 13%;
+
+}
+.tst div:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: goldenrod;
+}
+.mid-part-2{
+    width: 65vw;
+    text-align: center;
+
+
+}
+.mid-part-2 h1{
+    font-size: 4em;
+    color:darkcyan;
+    margin: 0;
+    margin-top: 10%;
+    
+}
+.mid-part-2 > p {
+    font-size: 3em;
+    color: darkcyan;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+}
+.mid-part-2 div{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30vw;
+    padding: 2%;
+    color:ghostwhite;
+    margin-left: 23%;
+}
+.mid-part-2 button{
+    height: 5vh;
+    width: 10vw;
+    background-color: transparent;
+    border: 5px solid wheat;
+    border-radius: 10px;
+    color: wheat;
+    margin-top: 3%;
+   
+}
+.mid-part-2 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-color: aquamarine;
+}
+.part-2{
+    background-image: url("../Assets/background.png");
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.animatedtext {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  .waviy p{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .part-2 p{
+    text-align: center;
+
+    position: absolute;
+    top: 69%;
+    color:white;
+    right: 30%;
+    width:40vw;
+  }
+
+  .part-3{
+    margin-top: 2%;
+    background-image: url("https://www.rei.com/dam/parrish_091412_0679_main_lg.jpg");
+    background-size: cover;
+    height: 90vh;
+  }
+  .package div{
+    width: 25vw;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+
+  }
+  .package div p{
+    text-align: center;
+    color: white;
+  }
+  .package div p:nth-of-type(1){
+    font-size: 35px;
+    border-bottom: 1px solid whitesmoke;
+  }
+
+  .package div button{
+    height: 5vh;
+    background-color: transparent;
+    color: antiquewhite;
+    border: 4px solid white;
+    margin:auto;
+    border-radius: 20px;
+    margin-left: 35%;
+  }
+  .package div button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: aquamarine;
+  }
+  .package div:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .foot{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+  }
